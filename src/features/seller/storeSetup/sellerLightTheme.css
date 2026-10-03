@@ -1,0 +1,596 @@
+/* White-mode seller workspace. Loaded after sellerStoreSetup.css. */
+
+.hlm-seller-shell {
+  --hlm-bg: #f5f7f6;
+  --hlm-surface: #ffffff;
+  --hlm-surface-2: #f8faf9;
+  --hlm-surface-3: #eef5f2;
+  --hlm-border: #dce3df;
+  --hlm-border-soft: #e8edea;
+  --hlm-text: #18221e;
+  --hlm-muted: #66736d;
+  --hlm-muted-2: #87918d;
+  --hlm-blue: #00875f;
+  --hlm-blue-strong: #007a56;
+  --hlm-blue-soft: #e7f7f1;
+  --hlm-green: #00875f;
+  --hlm-red: #c33e3e;
+  --hlm-warning: #9a680d;
+  background: var(--hlm-bg);
+  color: var(--hlm-text);
+  color-scheme: light;
+}
+
+.hlm-seller-shell .hlm-seller-sidebar {
+  border-right-color: #e1e6e3;
+  background: #ffffff;
+}
+
+.hlm-seller-shell .hlm-seller-brand {
+  color: #17211d;
+}
+
+.hlm-seller-shell .hlm-seller-brand-mark,
+.hlm-seller-shell .hlm-setup-card-icon {
+  border-color: #bce5d6;
+  background: #e8f8f2;
+  color: #00875f;
+}
+
+.hlm-seller-shell .hlm-seller-brand small {
+  color: #7b8781;
+}
+
+.hlm-seller-shell .hlm-seller-main-link {
+  color: #46534d;
+}
+
+.hlm-seller-shell .hlm-seller-main-link:hover {
+  border-color: #dce4e0;
+  background: #f5f8f6;
+  color: #1d2924;
+}
+
+.hlm-seller-shell .hlm-seller-main-link.is-active {
+  border-color: #bce5d6;
+  background: #e6f6f0;
+  color: #007a56;
+}
+
+.hlm-seller-shell .hlm-seller-main-link.is-disabled {
+  cursor: default;
+  opacity: 0.55;
+}
+
+.hlm-seller-shell .hlm-seller-header {
+  border-bottom-color: #e1e6e3;
+  background: rgba(255, 255, 255, 0.94);
+}
+
+.hlm-seller-shell .hlm-seller-header-copy strong {
+  color: #1a2520;
+}
+
+.hlm-seller-shell .hlm-seller-eyebrow {
+  color: #00875f;
+}
+
+.hlm-seller-shell .hlm-seller-status-badge,
+.hlm-seller-shell .hlm-form-badge {
+  border-color: #bce5d6;
+  background: #e8f8f2;
+  color: #007a56;
+}
+
+.hlm-seller-shell .hlm-form-badge.is-optional {
+  border-color: #dde4e0;
+  background: #f4f7f5;
+  color: #66736d;
+}
+
+.hlm-seller-shell .hlm-form-badge.is-ready {
+  border-color: #aedfce;
+  background: #e5f7ef;
+  color: #007a56;
+}
+
+.hlm-seller-shell .hlm-seller-icon-button,
+.hlm-seller-shell .hlm-seller-icon-link {
+  border-color: #dce3df;
+  background: #ffffff;
+  color: #4d5b54;
+}
+
+.hlm-seller-shell .hlm-seller-avatar {
+  border-color: #bce5d6;
+  background: #ddf7ed;
+  color: #007a56;
+}
+
+.hlm-seller-shell .hlm-setup-page-heading h1,
+.hlm-seller-shell .hlm-seller-placeholder h1 {
+  color: #17211d;
+}
+
+.hlm-seller-shell .hlm-setup-page-heading p,
+.hlm-seller-shell .hlm-seller-placeholder p {
+  color: #66736d;
+}
+
+.hlm-seller-shell .hlm-setup-sidebar {
+  border-color: #dfe5e2;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(37, 59, 49, 0.04);
+}
+
+.hlm-seller-shell .hlm-setup-progress,
+.hlm-seller-shell .hlm-create-progress {
+  border-bottom-color: #e8edea;
+}
+
+.hlm-seller-shell .hlm-setup-progress-row span,
+.hlm-seller-shell .hlm-setup-progress p,
+.hlm-seller-shell .hlm-create-progress span,
+.hlm-seller-shell .hlm-create-progress p {
+  color: #77837d;
+}
+
+.hlm-seller-shell .hlm-setup-progress-row strong,
+.hlm-seller-shell .hlm-create-progress strong {
+  color: #25312c;
+}
+
+.hlm-seller-shell .hlm-setup-progress p strong {
+  color: #007a56;
+}
+
+.hlm-seller-shell .hlm-setup-progress-track {
+  background: #e7ece9;
+}
+
+.hlm-seller-shell .hlm-setup-progress-track span {
+  background: linear-gradient(90deg, #00875f, #36b889);
+}
+
+.hlm-seller-shell .hlm-setup-section-link {
+  color: #3f4d46;
+}
+
+.hlm-seller-shell .hlm-setup-section-link:hover {
+  border-color: #dce4e0;
+  background: #f7faf8;
+}
+
+.hlm-seller-shell .hlm-setup-section-link.is-active {
+  border-color: #bce5d6;
+  background: #e8f7f1;
+  color: #006f4e;
+}
+
+.hlm-seller-shell .hlm-setup-section-link.is-static {
+  cursor: default;
+}
+
+.hlm-seller-shell .hlm-setup-section-link.is-disabled {
+  opacity: 0.58;
+}
+
+.hlm-seller-shell .hlm-setup-section-icon {
+  background: #f0f4f2;
+  color: #68756f;
+}
+
+.hlm-seller-shell .hlm-setup-section-link.is-active .hlm-setup-section-icon {
+  background: #d6f1e6;
+  color: #007a56;
+}
+
+.hlm-seller-shell .hlm-setup-section-copy small,
+.hlm-seller-shell .hlm-setup-item-state {
+  color: #7e8a84;
+}
+
+.hlm-seller-shell .hlm-setup-item-state.is-complete,
+.hlm-seller-shell .hlm-setup-item-state.is-current {
+  color: #007a56;
+}
+
+.hlm-seller-shell .hlm-setup-card {
+  border-color: #dce3df;
+  background: #ffffff;
+  box-shadow: 0 12px 32px rgba(37, 59, 49, 0.06);
+}
+
+.hlm-seller-shell .hlm-setup-card-header {
+  border-bottom-color: #e8edea;
+}
+
+.hlm-seller-shell .hlm-setup-card-header h2,
+.hlm-seller-shell .hlm-form-section-heading h3 {
+  color: #18231e;
+}
+
+.hlm-seller-shell .hlm-setup-card-header p,
+.hlm-seller-shell .hlm-form-section-heading p {
+  color: #69766f;
+}
+
+.hlm-seller-shell .hlm-field {
+  color: #29352f;
+}
+
+.hlm-seller-shell .hlm-field small,
+.hlm-seller-shell .hlm-field-help {
+  color: #7b8781;
+}
+
+.hlm-seller-shell .hlm-field input,
+.hlm-seller-shell .hlm-field select,
+.hlm-seller-shell .hlm-field textarea {
+  border-color: #d5ddd9;
+  background: #ffffff;
+  color: #202b26;
+}
+
+.hlm-seller-shell .hlm-field input::placeholder,
+.hlm-seller-shell .hlm-field textarea::placeholder {
+  color: #99a39e;
+}
+
+.hlm-seller-shell .hlm-field input:focus,
+.hlm-seller-shell .hlm-field select:focus,
+.hlm-seller-shell .hlm-field textarea:focus {
+  border-color: #00875f;
+  box-shadow: 0 0 0 3px rgba(0, 135, 95, 0.12);
+}
+
+.hlm-seller-shell .hlm-field .hlm-readonly-input {
+  background: #f5f7f6;
+  color: #53605a;
+  cursor: default;
+}
+
+.hlm-seller-shell .hlm-business-info-card {
+  width: 100%;
+  max-width: 780px;
+}
+
+.hlm-seller-shell .hlm-field-error {
+  color: #bd3737;
+}
+
+.hlm-seller-shell .hlm-form-divider {
+  background: #e8edea;
+}
+
+.hlm-seller-shell .hlm-form-subcard,
+.hlm-seller-shell .hlm-branding-card,
+.hlm-seller-shell .hlm-publish-block {
+  border-color: #e0e6e3;
+  background: #fafcfb;
+}
+
+.hlm-seller-shell .hlm-location-coordinate-card {
+  border-color: #c7e6da;
+  background: #f2faf7;
+}
+
+.hlm-seller-shell .hlm-location-pin-visual {
+  background:
+    linear-gradient(
+      135deg,
+      transparent 46%,
+      rgba(0, 135, 95, 0.08) 46% 54%,
+      transparent 54%
+    ),
+    #e5f6ef;
+  color: #00875f;
+}
+
+.hlm-seller-shell .hlm-location-page-card {
+  width: 100%;
+  max-width: 780px;
+}
+
+.hlm-seller-shell .hlm-location-search-input {
+  border-color: #d5ddd9;
+  background: #ffffff;
+  color: #748078;
+}
+
+.hlm-seller-shell .hlm-location-search-input:focus-within {
+  border-color: #00875f;
+  box-shadow: 0 0 0 3px rgba(0, 135, 95, 0.12);
+}
+
+.hlm-seller-shell .hlm-location-suggestions {
+  border-color: #d8e0dc;
+  background: #ffffff;
+  box-shadow: 0 18px 38px rgba(37, 59, 49, 0.14);
+}
+
+.hlm-seller-shell .hlm-location-suggestions button {
+  border-bottom-color: #e8edea;
+  color: #202b26;
+}
+
+.hlm-seller-shell .hlm-location-suggestions button:hover,
+.hlm-seller-shell .hlm-location-suggestions button:focus-visible {
+  background: #eff9f5;
+}
+
+.hlm-seller-shell .hlm-location-suggestions button > svg {
+  color: #00875f;
+}
+
+.hlm-seller-shell .hlm-location-suggestions small,
+.hlm-seller-shell .hlm-location-suggestions > p {
+  color: #68756f;
+}
+
+.hlm-seller-shell .hlm-location-map {
+  border-color: #cfe0d9;
+  background-color: #eef7f3;
+  background-image:
+    linear-gradient(rgba(60, 103, 84, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(60, 103, 84, 0.1) 1px, transparent 1px);
+}
+
+.hlm-seller-shell .hlm-location-map-status {
+  background: rgba(238, 247, 243, 0.94);
+  color: #65736c;
+}
+
+.hlm-seller-shell .hlm-location-map-status.is-error {
+  color: #a93232;
+}
+
+.hlm-seller-shell .hlm-location-map-confirmation {
+  border-color: #d9e3df;
+  background: rgba(255, 255, 255, 0.94);
+  color: #17231d;
+  box-shadow: 0 6px 18px rgba(37, 59, 49, 0.08);
+}
+
+.hlm-seller-shell .hlm-location-map-confirmation span {
+  color: #68756f;
+}
+
+.hlm-seller-shell .hlm-btn-primary {
+  border-color: #00875f;
+  background: #00875f;
+  color: #ffffff;
+}
+
+.hlm-seller-shell .hlm-btn-primary:hover:not(:disabled) {
+  background: #006f4e;
+}
+
+.hlm-seller-shell .hlm-btn-secondary {
+  border-color: #d3dcd7;
+  background: #ffffff;
+  color: #34423b;
+}
+
+.hlm-seller-shell .hlm-btn-secondary:hover:not(:disabled),
+.hlm-seller-shell .hlm-btn-ghost:hover:not(:disabled) {
+  border-color: #a8d2c2;
+  background: #eff9f5;
+}
+
+.hlm-seller-shell .hlm-btn-ghost {
+  color: #68756f;
+}
+
+.hlm-seller-shell .hlm-btn-danger-ghost,
+.hlm-seller-shell .hlm-icon-danger {
+  border-color: #eccaca;
+  color: #b73b3b;
+}
+
+.hlm-seller-shell .hlm-form-actions {
+  border-top-color: #e8edea;
+  background: #fafcfb;
+}
+
+.hlm-seller-shell .hlm-inline-notice {
+  border-color: #edc6c6;
+  background: #fff5f5;
+  color: #a93232;
+}
+
+.hlm-seller-shell .hlm-inline-notice.is-success {
+  border-color: #b8dfd0;
+  background: #effaf5;
+  color: #087653;
+}
+
+.hlm-seller-shell .hlm-branding-preview {
+  border-color: #d0d9d4;
+  background: #f7f9f8;
+  color: #7a8680;
+}
+
+.hlm-seller-shell .hlm-hours-toolbar p {
+  color: #68756f;
+}
+
+.hlm-seller-shell .hlm-hours-day {
+  border-color: #e0e6e3;
+  background: #fafcfb;
+}
+
+.hlm-seller-shell .hlm-hours-day-heading > strong,
+.hlm-seller-shell .hlm-switch-label,
+.hlm-seller-shell .hlm-checkbox-label {
+  color: #34413b;
+}
+
+.hlm-seller-shell .hlm-hours-day-body {
+  border-top-color: #e7ece9;
+}
+
+.hlm-seller-shell .hlm-switch {
+  background: #cfd7d3;
+}
+
+.hlm-seller-shell .hlm-switch-label input:checked + .hlm-switch {
+  background: #00875f;
+}
+
+.hlm-seller-shell .hlm-text-button {
+  color: #007a56;
+}
+
+.hlm-seller-shell .hlm-choice-card {
+  border-color: #dce3df;
+  background: #ffffff;
+}
+
+.hlm-seller-shell .hlm-choice-card.is-selected {
+  border-color: #83cdb1;
+  background: #edf9f4;
+}
+
+.hlm-seller-shell .hlm-choice-icon {
+  background: #e8f7f1;
+  color: #00875f;
+}
+
+.hlm-seller-shell .hlm-choice-card strong {
+  color: #26322d;
+}
+
+.hlm-seller-shell .hlm-choice-card small {
+  color: #718078;
+}
+
+.hlm-seller-shell .hlm-publish-block.is-primary {
+  border-color: #bce4d5;
+  background: #f0faf6;
+}
+
+.hlm-seller-shell .hlm-publish-requirement {
+  border-color: #e0e6e3;
+  background: #ffffff;
+}
+
+.hlm-seller-shell .hlm-publish-requirement-icon {
+  background: #e8f7f1;
+  color: #00875f;
+}
+
+.hlm-seller-shell .hlm-publish-requirement strong,
+.hlm-seller-shell .hlm-publish-footer strong {
+  color: #25312c;
+}
+
+.hlm-seller-shell .hlm-publish-footer {
+  border-top-color: #e8edea;
+  background: #fafcfb;
+}
+
+.hlm-seller-shell .hlm-publish-footer p {
+  color: #6e7a74;
+}
+
+.hlm-seller-shell .hlm-setup-loading,
+.hlm-seller-shell .hlm-setup-load-error,
+.hlm-seller-shell .hlm-seller-placeholder {
+  border-color: #dfe5e2;
+  background: #ffffff;
+  color: #6d7973;
+}
+
+.hlm-create-progress {
+  padding: 8px 8px 15px;
+}
+
+.hlm-create-progress span,
+.hlm-create-progress strong,
+.hlm-create-progress p {
+  display: block;
+}
+
+.hlm-create-progress span {
+  font-size: 10px;
+  font-weight: 750;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hlm-create-progress strong {
+  margin-top: 3px;
+  font-size: 13px;
+}
+
+.hlm-create-progress p {
+  margin: 4px 0 0;
+  font-size: 10px;
+  line-height: 1.4;
+}
+
+.hlm-create-setup-page .hlm-setup-panel {
+  max-width: 780px;
+}
+
+@media (max-width: 900px) {
+  .hlm-seller-shell .hlm-seller-sidebar {
+    border-bottom-color: #e1e6e3;
+    background: #ffffff;
+  }
+
+  .hlm-create-setup-sidebar .hlm-create-progress {
+    display: none;
+  }
+}
+
+/* Store publication checklist and actions. */
+.hlm-seller-shell .hlm-publish-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 20px 24px 0;
+}
+.hlm-seller-shell a.hlm-publish-requirement {
+  color: inherit;
+  text-decoration: none;
+}
+.hlm-seller-shell a.hlm-publish-requirement:hover {
+  border-color: #83cdb1;
+}
+.hlm-seller-shell a.hlm-publish-requirement:focus-visible {
+  outline: 2px solid #00875f;
+  outline-offset: 3px;
+}
+.hlm-seller-shell .hlm-publish-item-copy {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+.hlm-seller-shell .hlm-publish-item-copy small,
+.hlm-seller-shell .hlm-publish-help {
+  color: #66736d;
+  overflow-wrap: anywhere;
+  line-height: 1.5;
+}
+.hlm-seller-shell .hlm-publish-requirement .is-optional {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #66736d;
+  font-size: 11px;
+  font-weight: 700;
+}
+.hlm-seller-shell .hlm-publish-notices:not(:empty) {
+  margin: 20px 24px 0;
+}
+@media (max-width: 680px) {
+  .hlm-seller-shell .hlm-publish-toolbar,
+  .hlm-seller-shell .hlm-publish-notices:not(:empty) {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

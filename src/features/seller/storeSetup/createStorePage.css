@@ -1,0 +1,179 @@
+/*
+ * The initial Create Store page lives inside MainLayout and follows the
+ * existing light HLM marketplace theme. These selectors are intentionally
+ * scoped so the later Seller workspace can keep its own dark theme.
+ */
+
+.hlm-create-store-shell {
+  --hlm-bg: #f7f9f8;
+  --hlm-surface: #ffffff;
+  --hlm-surface-2: #f7faf9;
+  --hlm-surface-3: #edf7f3;
+  --hlm-border: #dfe5e2;
+  --hlm-border-soft: #e9eeeb;
+  --hlm-text: #1f2925;
+  --hlm-muted: #66736d;
+  --hlm-muted-2: #87928d;
+  --hlm-blue: #047857;
+  --hlm-blue-strong: #00875f;
+  --hlm-blue-soft: #e7f8f1;
+  --hlm-green: #00875f;
+  --hlm-red: #c53f3f;
+  --hlm-warning: #a66a0a;
+  min-height: calc(100vh - 116px);
+  padding: 32px 22px 70px;
+  background: #f7f9f8;
+  color: var(--hlm-text);
+  color-scheme: light;
+}
+
+.hlm-create-store-shell .hlm-create-store-card {
+  width: min(900px, 100%);
+  border: 1px solid #dfe5e2;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 12px 36px rgba(30, 54, 44, 0.08);
+}
+
+.hlm-create-store-shell .hlm-create-store-heading {
+  padding: 26px 28px 22px;
+  border-bottom-color: #e8eeeb;
+  background: linear-gradient(180deg, #ffffff, #fbfdfc);
+}
+
+.hlm-create-store-shell .hlm-setup-card-icon {
+  border-color: #b9e8d6;
+  background: #e7f8f1;
+  color: #00875f;
+}
+
+.hlm-create-store-shell .hlm-seller-eyebrow {
+  color: #00875f;
+}
+
+.hlm-create-store-shell .hlm-create-store-heading h1 {
+  color: #17201c;
+  font-size: clamp(25px, 3vw, 34px);
+}
+
+.hlm-create-store-shell .hlm-create-store-heading p,
+.hlm-create-store-shell .hlm-form-section-heading p {
+  color: #69756f;
+}
+
+.hlm-create-store-shell .hlm-create-store-card form {
+  padding: 26px 28px;
+}
+
+.hlm-create-store-shell .hlm-form-section-heading h3,
+.hlm-create-store-shell .hlm-field {
+  color: #26322d;
+}
+
+.hlm-create-store-shell .hlm-field small,
+.hlm-create-store-shell .hlm-field-help {
+  color: #7c8882;
+}
+
+.hlm-create-store-shell .hlm-field input,
+.hlm-create-store-shell .hlm-field select,
+.hlm-create-store-shell .hlm-field textarea {
+  border-color: #d7dedb;
+  background: #ffffff;
+  color: #202a26;
+}
+
+.hlm-create-store-shell .hlm-field input::placeholder,
+.hlm-create-store-shell .hlm-field textarea::placeholder {
+  color: #9aa39f;
+}
+
+.hlm-create-store-shell .hlm-field input:focus,
+.hlm-create-store-shell .hlm-field select:focus,
+.hlm-create-store-shell .hlm-field textarea:focus {
+  border-color: #00875f;
+  box-shadow: 0 0 0 3px rgba(0, 135, 95, 0.12);
+}
+
+.hlm-create-store-shell .hlm-form-divider {
+  background: #e8eeeb;
+}
+
+.hlm-create-store-shell .hlm-location-coordinate-card {
+  border-color: #cce8dc;
+  background: #f5fbf8;
+}
+
+.hlm-create-store-shell .hlm-location-pin-visual {
+  background:
+    linear-gradient(
+      135deg,
+      transparent 46%,
+      rgba(0, 135, 95, 0.08) 46% 54%,
+      transparent 54%
+    ),
+    #eaf8f2;
+  color: #00875f;
+}
+
+.hlm-create-store-shell .hlm-btn-primary {
+  border-color: #00875f;
+  background: #00875f;
+  color: #ffffff;
+}
+
+.hlm-create-store-shell .hlm-btn-primary:hover:not(:disabled) {
+  background: #006f4e;
+}
+
+.hlm-create-store-shell .hlm-btn-secondary {
+  border-color: #d1dbd6;
+  background: #ffffff;
+  color: #304039;
+}
+
+.hlm-create-store-shell .hlm-btn-secondary:hover:not(:disabled) {
+  border-color: #9dcbb9;
+  background: #f0faf6;
+}
+
+.hlm-create-store-shell .hlm-form-actions {
+  border-top-color: #e8eeeb;
+  background: #fafcfb;
+}
+
+.hlm-create-store-shell .hlm-inline-notice {
+  border-color: #efcaca;
+  background: #fff5f5;
+  color: #a43131;
+}
+
+.hlm-create-store-shell .hlm-inline-notice.is-success {
+  border-color: #bce3d3;
+  background: #effaf5;
+  color: #087653;
+}
+
+.hlm-create-store-shell .hlm-create-store-footnote {
+  border-top-color: #e8eeeb;
+  background: #fafcfb;
+  color: #718079;
+}
+
+@media (max-width: 680px) {
+  .hlm-create-store-shell {
+    min-height: auto;
+    padding: 16px 12px 40px;
+  }
+
+  .hlm-create-store-shell .hlm-create-store-card {
+    min-height: 0;
+    border: 1px solid #dfe5e2;
+    border-radius: 14px;
+  }
+
+  .hlm-create-store-shell .hlm-create-store-heading,
+  .hlm-create-store-shell .hlm-create-store-card form {
+    padding: 18px;
+  }
+}
